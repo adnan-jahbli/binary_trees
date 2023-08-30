@@ -22,7 +22,7 @@ size_t sub_func(const binary_tree_t *tree)
  *
  * Return: Depth of the tree, or 0 if tree is NULL.
  */
-size_t binary_tree_height(const binary_tree_t *tree)
+size_t binary_tree_depth(const binary_tree_t *tree)
 {
 	if (!tree)
 		return (0);
